@@ -1,0 +1,47 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261106115311
+Nombre de usuario: DESKTOP-KDL050E\Pedro
+Usuario RunAs: DESKTOP-KDL050E\Pedro
+Nombre de la configuración: 
+Máquina: DESKTOP-KDL050E (Microsoft Windows NT 10.0.19044.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 7004
+PSVersion: 5.1.19041.6807
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6807
+BuildVersion: 10.0.19041.6807
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\Pedro\Desktop\auditoria.txt
+PS C:\Windows\system32> cd $HOME\Desktop
+PS C:\Users\Pedro\Desktop> mkdir Proyecto_PS
+
+
+    Directorio: C:\Users\Pedro\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        06/11/2026     11:53                Proyecto_PS
+
+
+PS C:\Users\Pedro\Desktop> cd Proyecto_PS
+PS C:\Users\Pedro\Desktop\Proyecto_PS> echo "Entorno inicializado" > leeme.md
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Entorno inicializado"
+PS C:\Users\Pedro\Desktop\Proyecto_PS> git init
+Initialized empty Git repository in C:/Users/Pedro/Desktop/Proyecto_PS/.git/
+PS C:\Users\Pedro\Desktop\Proyecto_PS> git add leeme.md
+
+PS C:\Users\Pedro\Desktop\Proyecto_PS> git commit -m "Commit inicial desde PowerShell"
+[main (root-commit) d91215e] Commit inicial desde PowerShell
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 leeme.md
+PS C:\Users\Pedro\Desktop\Proyecto_PS> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261106115618
+**********************
